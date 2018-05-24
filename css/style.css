@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+  color:white;
+}
+.icnd{
+  position:absolute;
+  top:0;
+  right:0;
+  margin-right:4px;
+}
+.abptn{
+  width: 70%;
+     margin-top: -25px;
+  position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/*.card{
+    background-color: rgba(255,255,255,.1);
+
+}*/
+#showcase{
+/*background-image:url("https://i.pinimg.com/736x/23/95/87/2395879bfd688cf736afd349724fea80--vector-landscape-nrw.jpg");*/
+  height:100vh;
+  width: 100vw;
+ 
+  background-size:cover;
+  background-position:center;
+  color:#fff1e7;
+  
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+  
+  position: fixed;
+  filter: blur(2px);
+  
+  z-index:1;
+  
+}
+
+.card {
+    width: 50vh;
+  border:none;
+  position:absolute;
+  z-index:2;
+/*background-color: rgba(10, 12, 6, 0.26);*/
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wi{
+  font-size:2rem;
+}
+@media only screen and (max-height:736px) and (max-width:416px){
+  .card{
+    width:100vw;
+    height:100vh;
+  /*  background-image:url("http://d2ouvy59p0dg6k.cloudfront.net/img/haze_gradient_2_517049.jpg");*/
+    z-index:2;
+  }
+  
+  #a1{
+    height:60vh;
+    
+  }
+  
+}
